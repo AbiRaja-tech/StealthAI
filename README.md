@@ -237,32 +237,6 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 🔒 Security
-
-### Frontend Security
-- **Input Validation**: Client-side form validation
-- **XSS Prevention**: React's built-in XSS protection
-- **CSRF Protection**: Token-based CSRF protection
-- **Content Security Policy**: CSP headers for security
-
-### Data Protection
-- **Sensitive Data**: No sensitive data stored in localStorage
-- **API Security**: HTTPS-only API communication
-- **Authentication**: Secure token management
-
-## 📈 Performance
-
-### Optimization Strategies
-- **Code Splitting**: Route-based code splitting
-- **Lazy Loading**: Component lazy loading
-- **Memoization**: React.memo and useMemo for performance
-- **Bundle Optimization**: Tree shaking and minification
-
-### Monitoring
-- **Performance Metrics**: Core Web Vitals tracking
-- **Error Tracking**: Error boundary implementation
-- **Analytics**: User behavior tracking (ready for integration)
-
 ## 🤝 Contributing
 
 ### Development Workflow
@@ -273,28 +247,6 @@ CMD ["npm", "start"]
 5. Code review and approval
 6. Merge to main branch
 
-### Code Standards
-- **TypeScript**: Strict typing required
-- **ESLint**: Follow ESLint rules
-- **Prettier**: Consistent code formatting
-- **Conventional Commits**: Standard commit message format
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-### Documentation
-- **API Documentation**: Available at `/api/docs`
-- **Component Library**: Storybook documentation
-- **User Guide**: In-app help and tutorials
-
-### Contact
-- **Technical Support**: tech-support@stealthai.com
-- **Feature Requests**: features@stealthai.com
-- **Bug Reports**: bugs@stealthai.com
-
 ## 🔮 Roadmap
 
 ### Upcoming Features
@@ -303,12 +255,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Advanced Reporting**: Custom report builder
 - **Integration Hub**: Third-party system integrations
 - **Real-time Notifications**: Push notifications and alerts
-
-### Future Enhancements
-- **Machine Learning**: Supplier performance prediction
-- **Blockchain**: Supply chain transparency
-- **IoT Integration**: Real-time tracking
-- **Multi-language**: Internationalization support
 
 ---
 
